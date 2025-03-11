@@ -1,13 +1,12 @@
 package main
 
-import (
+import {
 	"fmt"
-
-	"github.com/TiverNine3301/problem-solving-go/utils" // Импорт вашего пакета
-)
+	"github.com/TiverNine3301/problem-solving-go/problems"
+}
 
 func main() {
-	// minimum()
+	minimum()
 	// solution3()
 	// solution4()
 	// solution5()
@@ -21,7 +20,4 @@ func main() {
 	// 	return
 	// }
 	// fmt.Println("Цифровой корень:", solution2(n))
-
-	fmt.Println("Hello, World!")
-	utils.PrintMessage() // Вызов функции из пакета utils
 }
