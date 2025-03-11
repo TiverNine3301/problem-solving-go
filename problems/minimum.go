@@ -1,11 +1,8 @@
 package problems
 
-import (
-	"fmt"
-)
+import "fmt"
 
-// minimum находит количество минимальных элементов в последовательности.
-func minimum() {
+func Minimum() {
 	var n int
 	fmt.Print("Введите количество чисел: ")
 	if _, err := fmt.Scan(&n); err != nil || n <= 0 {

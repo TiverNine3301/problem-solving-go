@@ -15,4 +15,4 @@
    git clone https://github.com/TiverNine3301/problem-solving-go.git
 
 3. Перейдите в папку с задачей и запустите файл:
-    go run problem-solving-go/НАЗВАНИЕ_ФАЙЛА
+    go run .
