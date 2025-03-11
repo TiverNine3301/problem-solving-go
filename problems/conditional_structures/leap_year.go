@@ -1,4 +1,4 @@
-package problems
+package conditional_structures
 
 import "fmt"
 

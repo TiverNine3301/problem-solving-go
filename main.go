@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"problem-solving-go/problems"
+	"github.com/TiverNine3301/problem-solving-go/problems"
 )
 
 func main() {

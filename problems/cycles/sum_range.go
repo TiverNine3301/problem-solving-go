@@ -1,4 +1,4 @@
-package problems
+package cycles
 
 import "fmt"
 
