@@ -56,6 +56,16 @@ func main() {
 		problems.YearsToReachTarget()
 	case 19:
 		problems.FindCommonDigits()
+	case 20:
+		problems.ProcessNumber()
+	case 21:
+		problems.ProcessArray()
+	case 22:
+		problems.ProcessSlice()
+	case 23:
+		problems.FilterEvenIndices()
+	case 24:
+		problems.CountNonNegatives()
 	default:
 		fmt.Print("Введите число.")
 	}

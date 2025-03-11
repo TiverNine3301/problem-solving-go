@@ -1,4 +1,4 @@
-package problems
+package math_tasks
 
 func Digital_root(n int) int {
 	if n == 0 {
