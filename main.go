@@ -29,7 +29,13 @@ func main() {
 	case 5:
 		problems.ShowPowersOfTwo()
 	case 6:
-		problems.FibonacciIndex()
+		var A int
+		fmt.Scan(&A)
+
+		index := problems.FibonacciIndex(A)
+		if index != -1 {
+			fmt.Print(index)
+		}
 	case 7:
 		problems.ShowNumberSign()
 	case 8:
@@ -66,6 +72,10 @@ func main() {
 		problems.FilterEvenIndices()
 	case 24:
 		problems.CountNonNegatives()
+	case 25:
+		problems.ToBinary()
+	case 26:
+		problems.Delete_num()
 	default:
 		fmt.Print("Введите число.")
 	}

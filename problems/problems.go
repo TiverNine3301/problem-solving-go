@@ -92,12 +92,12 @@ func CountNonNegatives() {
 
 // Функции из math_tasks
 
-func Digital_root() {
-	math_tasks.Digital_root()
+func Digital_root(n int) int {
+	return math_tasks.Digital_root(n)
 }
 
-func FibonacciIndex() {
-	math_tasks.FibonacciIndex()
+func FibonacciIndex(A int) int {
+	return math_tasks.FibonacciIndex(A)
 }
 
 func ShowPowersOfTwo() {
@@ -114,4 +114,12 @@ func Minimum() {
 
 func DeclineCow() {
 	math_tasks.DeclineCow()
+}
+
+func ToBinary() {
+	math_tasks.ToBinary()
+}
+
+func Delete_num() {
+	math_tasks.Delete_num()
 }
